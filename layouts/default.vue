@@ -1,9 +1,18 @@
 <template>
   <div>
+    <main-header />
     <nuxt/>
   </div>
 </template>
+<script>
+import MainHeader from '~/components/MainHeader/index.vue'
 
+export default {
+  components: {
+    MainHeader
+  }
+}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
