@@ -22,11 +22,11 @@
 
   .main-header__left {
     margin: 20px 60px;
-    height: 50px;
+    height: 35px;
   }
   .main-header__right {
     margin: 20px 60px;
-    height: 20px;
+    height: 12px;
   }
 }
 </style>

@@ -15,7 +15,7 @@ https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/mainpage/%E2%80%9C%E5%8F%AA%
     </div>
     <img 
       class="background-img" 
-      src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/mainpage/main.png?x-oss-process=style/background">
+      src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/mainpage/main.png">
   </div>
 </template>
 
@@ -43,11 +43,11 @@ https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/mainpage/%E2%80%9C%E5%8F%AA%
       display: block;
     }
     .center-component_img1 {
-      height: 75px;
-      padding-bottom: 30px;
+      height: 50px;
+      padding-bottom: 20px;
     }
     .center-component_img2 {
-      height: 35px;
+      height: 20px;
     }
   }
 }
