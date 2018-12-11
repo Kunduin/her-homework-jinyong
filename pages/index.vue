@@ -1,18 +1,18 @@
 <template>
   <section>
     <main-page-part />
-    <main-header />
+    <carrousel-part />
   </section>
 </template>
 
 <script>
 import MainPagePart from '~/components/MainPagePart/index.vue'
-import MainHeader from '~/components/MainHeader/index.vue'
+import CarrouselPart from '~/components/CarrouselPart/index.vue'
 
 export default {
   components: {
     MainPagePart,
-    MainHeader
+    CarrouselPart
   }
 }
 </script>
