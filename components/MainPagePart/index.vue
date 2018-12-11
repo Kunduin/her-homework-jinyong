@@ -43,7 +43,7 @@ https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/mainpage/%E2%80%9C%E5%8F%AA%
       display: block;
     }
     .center-component_img1 {
-      height: 65px;
+      height: 75px;
       padding-bottom: 30px;
     }
     .center-component_img2 {
