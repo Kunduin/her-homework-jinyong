@@ -4,7 +4,7 @@
       @Copyright 2018
     </div>
     <div>
-      Made by group 8
+      Made by Group 8
     </div>
   </div>
 </template>
