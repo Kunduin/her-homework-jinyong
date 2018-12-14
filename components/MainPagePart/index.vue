@@ -20,7 +20,7 @@
       alt=""/>
     <fade-background
       class="background-img"
-      src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/mainpage/main.png"/></div>
+      src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/mainpage/BackgroundMain.jpg"/></div>
 </template>
 
 
@@ -52,6 +52,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgba(0, 0, 0, 0.2);
   .center-component__img {
     display: flex;
     flex-direction: column;
