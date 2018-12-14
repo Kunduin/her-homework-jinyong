@@ -51,7 +51,6 @@ export default {
   z-index: 1;
   display: flex;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.28);
   align-items: center;
   .center-component__img {
     display: flex;

@@ -26,6 +26,11 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background: repeat
+    url('https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/background.jpg');
+}
+
 *,
 *:before,
 *:after {
