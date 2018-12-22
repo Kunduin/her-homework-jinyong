@@ -47,7 +47,7 @@ export default {
   position: absolute;
   left: 50%;
   transition-duration: 500ms;
-  transition: all ease;
+  transition: all ease 0.6s;
   transform-style: preserve-3d;
 
   width: 500px;
@@ -60,7 +60,7 @@ export default {
 .carousel {
   &-middle {
     transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);
-    z-index: 3;
+    z-index: 5;
   }
   &-right {
     z-index: 2;

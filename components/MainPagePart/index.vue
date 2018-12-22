@@ -62,8 +62,8 @@ export default {
       display: block;
     }
     .center-component_img1 {
-      height: 50px;
-      padding-bottom: 20px;
+      height: 30px;
+      margin-bottom: 20px;
     }
     .center-component_img2 {
       height: 20px;

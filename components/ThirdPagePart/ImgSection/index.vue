@@ -71,8 +71,8 @@ $page-section-height: 60vh;
       display: block;
     }
     .center-component_img1 {
-      height: 80px;
-      padding-bottom: 50px;
+      height: 30px;
+      margin-bottom: 50px;
     }
     .center-component_img2 {
       height: 50px;

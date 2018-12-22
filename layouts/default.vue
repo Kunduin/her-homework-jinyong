@@ -2,14 +2,18 @@
   <div>
     <main-header />
     <nuxt/>
+    <author-footer />
+
   </div>
 </template>
 <script>
 import MainHeader from '~/components/MainHeader/index.vue'
+import AuthorFooter from '~/components/AuthorFooter/index.vue'
 
 export default {
   components: {
-    MainHeader
+    MainHeader,
+    AuthorFooter
   }
 }
 </script>

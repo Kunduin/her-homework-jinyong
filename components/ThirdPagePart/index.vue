@@ -1,10 +1,12 @@
 <template>
   <div>
-    <img-section
-      background-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/page3-1.jpg"
-      desc-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/desc1.png"
-      button-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/button-1.png"
-    />
+    <nuxt-link to="/map">
+      <img-section
+        background-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/page3-1.jpg"
+        desc-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/desc1.png"
+        button-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/button-1.png"
+      />
+    </nuxt-link>
     <img-section
       background-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/page3-2.jpg"
       desc-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/desc2.png"

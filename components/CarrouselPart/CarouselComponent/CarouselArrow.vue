@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <fade-background 
       :class="{'arrow-left':left}"
       class="arrow"
