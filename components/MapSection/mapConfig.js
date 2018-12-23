@@ -14,14 +14,14 @@ export default () => [
         left: '1022px',
         top: '765px',
         x: true,
-        desc: ''
+        desc: 'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yuenvjian/%E6%B1%9F%E8%8B%8F%E5%A7%91%E8%8B%8F.png',
       },
       {
-        //江苏姑苏
+        //浙江绍兴
         left: '1022px',
         top: '765px',
         x: true,
-        desc: ''
+        desc: 'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yuenvjian/%E6%B5%99%E6%B1%9F%E7%BB%8D%E5%85%B4.png',
       },
     ]
   },
