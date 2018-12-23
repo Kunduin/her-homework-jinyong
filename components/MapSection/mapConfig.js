@@ -22,6 +22,13 @@ export default () => [
         top: '200px',
         x: true,
         desc: ''
+      },
+      {
+        //西夏
+        left: '10px',
+        top: '200px',
+        x: true,
+        desc: ''
       }
     ]
   },
