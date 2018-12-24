@@ -29,7 +29,9 @@
             <div
               v-for="banner in config"
               :key="banner.id"
-              class="swiper-slide">
+              class="swiper-slide"
+              style="cursor: pointer;z-index: 10"
+              @click="$emit('select-id',banner.id)">
             <FadeBackground :src="banner.book_url"/></div>
           </div>
 
@@ -90,6 +92,7 @@ export default {
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 20;
   bottom: 0;
   &__board {
     position: relative;
