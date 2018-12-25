@@ -1,47 +1,54 @@
 <template xmlns:v-swiper="http://www.w3.org/1999/xhtml">
   <div class="map-nav">
-    <div 
-      v-show="!active"
-      @click="onShow">
-      <FadeBackground
-        style="width: 300px;cursor: pointer"
-        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/choose-smail.png" />
-    </div>
-    <div
-      v-show="active"
-      class="map-nav__board">
-      <div 
-        class="map-nav__top-pointer" 
-        @click="onHide">
-        <FadeBackground
-          style="width: 40px;cursor: pointer"
-          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/%E7%AE%AD%E5%A4%B4-top.png" />
-      </div>
+    <div style="position: relative">
 
-      <div class="board-section">
-        <nav-arror 
-          class="swiper__prev" 
-          left/>
-        <div 
-          v-swiper:mySwiper="swiperOption" 
-          class="images-section">
-          <div class="swiper-wrapper swiper-item">
-            <div
-              v-for="banner in config"
-              :key="banner.id"
-              class="swiper-slide"
-              style="cursor: pointer;z-index: 10"
-              @click="$emit('select-id',banner.id)">
-            <FadeBackground :src="banner.book_url"/></div>
-          </div>
-
+      <div
+        :class="{'is-active':!active}"
+        class="map-nav__pre">
+        <div @click="onShow">
+          <FadeBackground
+            style="width: 300px;cursor: pointer"
+            src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/choose-smail.png" />
         </div>
-        <nav-arror class="swiper__next"/>
+
       </div>
 
-      <FadeBackground
-        style="width: 700px"
-        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/%E6%A1%86.png" />
+      <div
+        :class="{'is-active':active}"
+        class="map-nav__board">
+        <div
+          class="map-nav__top-pointer"
+          @click="onHide">
+          <FadeBackground
+            style="width: 40px;cursor: pointer"
+            src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/%E7%AE%AD%E5%A4%B4-top.png" />
+        </div>
+
+        <div class="board-section">
+          <nav-arror
+            class="swiper__prev"
+            left/>
+          <div
+            v-swiper:mySwiper="swiperOption"
+            class="images-section">
+            <div class="swiper-wrapper swiper-item">
+              <div
+                v-for="banner in config"
+                :key="banner.id"
+                class="swiper-slide"
+                style="cursor: pointer;z-index: 10"
+                @click="$emit('select-id',banner.id)">
+              <FadeBackground :src="banner.book_url"/></div>
+            </div>
+
+          </div>
+          <nav-arror class="swiper__next"/>
+        </div>
+
+        <FadeBackground
+          style="width: 700px"
+          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/%E6%A1%86.png" />
+      </div>
     </div>
   </div>
 </template>
@@ -93,9 +100,25 @@ export default {
   left: 50%;
   transform: translateX(-50%);
   z-index: 20;
+  margin-bottom: -3px;
   bottom: 0;
+  .is-active {
+    transform: translateY(0);
+  }
+  &__pre {
+    transition: all 0.5s cubic-bezier(0.77, 0, 0.18, 1);
+    transform: translateY(100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
   &__board {
     position: relative;
+    transition: all 0.5s cubic-bezier(0.77, 0, 0.18, 1);
+    transform: translateY(100%);
   }
   &__top-pointer {
     position: absolute;
