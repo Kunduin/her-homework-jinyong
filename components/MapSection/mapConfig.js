@@ -178,8 +178,8 @@ export default () => [
       },
       {
         //陕西
-        left:'1040px',
-        top:'836px',
+        left:'761px',
+        top:'691px',
         x:false,
         desc:'',
       }
