@@ -116,42 +116,42 @@ export default () => [
 			  left:'1016px',
 			  top:'766px',
 			  x:true,
-			  desc:'',
+			  desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B1%9F%E8%8B%8F%E5%A7%91%E8%8B%8F.png',
       },
       {
         //河北
 			  left:'890px',
 			  top:'597px',
 			  x:false,
-			  desc:'',
+			  desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B2%B3%E5%8C%97%E9%BB%91%E6%9C%A8%E5%B4%96.png',
       },
       {
         //四川
         left:'623px',
         top:'821px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E5%9B%9B%E5%B7%9D%E5%B3%A8%E7%9C%89%E5%B1%B1.png',
       },
       {
         //湖北
         left:'838px',
         top:'800px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B9%96%E5%8C%97.png',
       },
       {
         //浙江
         left:'1075px',
         top:'812px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B5%99%E6%B1%9F%E8%88%9F%E5%B1%B1.png',
       },
       {
         //陕西
         left:'761px',
         top:'691px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E5%8D%8E%E5%B1%B1.png',
       }
 
     ]
