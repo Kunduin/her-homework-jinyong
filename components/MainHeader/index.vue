@@ -1,13 +1,28 @@
 <template>
-  <div class="main-header">
-    <img
-      class="main-header__left"
-      alt=""
-      src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/%E6%A0%87%E9%A2%98.png?x-oss-process=style/background">
-    <img
-      class="main-header__right"
-      alt=""
-      src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/%E6%B1%89%E5%A0%A1%E6%8C%89%E9%92%AE.png?x-oss-process=style/background">
+  <div>
+    <div class="main-header">
+      <img
+        class="main-header__left"
+        alt=""
+        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/%E6%A0%87%E9%A2%98.png?x-oss-process=style/background">
+      <div
+        class="main-header__right">
+        <div id="menuToggle">
+          <input type="checkbox" >
+          <span/>
+          <span/>
+          <ul id="menu">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Info</li></a>
+            <a href="#"><li>Contact</li></a>
+            <a
+              href="https://erikterwan.com/"
+              target="_blank"><li>Show me more</li></a>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -28,5 +43,131 @@
     margin: 20px 60px;
     height: 12px;
   }
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: tomato;
+}
+
+#menuToggle {
+  display: block;
+  position: relative;
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+
+  input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 10000; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+  span {
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 9999;
+
+    transform-origin: 14.58px 4.25px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  }
+
+  span:first-child {
+    transform-origin: 0% 0%;
+  }
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 14.58px -0.25px;
+}
+
+/*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+/*#menuToggle input:checked ~ span:nth-last-child(2) {*/
+/*opacity: 0;*/
+/*transform: rotate(0deg) scale(0.2, 0.2);*/
+/*}*/
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu {
+  position: absolute;
+  width: 400px;
+  z-index: 1000;
+  margin: -50px 0 0 -50px;
+  padding: 50px;
+
+  height: 100vh;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  left: -200px;
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul {
+  transform: none;
 }
 </style>
