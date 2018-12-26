@@ -14,11 +14,13 @@
         button-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/button-2.png"
       />
     </nuxt-link>
-    <img-section
-      background-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/page4-1.jpg"
-      desc-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/desc3.png"
-      button-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/button-3.png"
-    />
+    <nuxt-link to="/topic">
+      <img-section
+        background-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/page4-1.jpg"
+        desc-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/desc3.png"
+        button-src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/page3-4/button-3.png"
+      />
+    </nuxt-link>
   </div>
 </template>
 
