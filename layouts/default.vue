@@ -1,7 +1,7 @@
 <template>
   <div>
     <main-header />
-    <nuxt/>
+    <nuxt />
     <author-footer />
 
   </div>
@@ -40,6 +40,10 @@ body {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+img {
+  display: block;
 }
 
 .button--green {

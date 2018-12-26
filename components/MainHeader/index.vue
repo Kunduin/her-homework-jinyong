@@ -1,11 +1,13 @@
 <template>
   <div>
     <div class="main-header">
-      <img
-        class="main-header__left"
-        alt=""
-        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/%E6%A0%87%E9%A2%98.png?x-oss-process=style/background"
-      >
+      <nuxt-link to="/">
+        <img
+          class="main-header__left"
+          alt
+          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/%E6%A0%87%E9%A2%98.png?x-oss-process=style/background"
+        >
+      </nuxt-link>
       <div class="main-header__right">
         <div id="menuToggle">
           <input type="checkbox">
@@ -21,7 +23,7 @@
             <nuxt-link to="/flower">
               <div>献宝留言</div>
             </nuxt-link>
-            <nuxt-link to="/map">
+            <nuxt-link to="/topic">
               <div>话题讨论</div>
             </nuxt-link>
           </div>
@@ -47,41 +49,41 @@
   .main-header__right {
     margin: 20px 60px;
     height: 12px;
-  }
 
-  a {
-    text-decoration: none;
-    color: #ceaf6e;
-    position: relative;
-    padding: 10px;
-    display: block;
-    transition: color 0.3s ease;
-  }
+    a {
+      text-decoration: none;
+      color: #ceaf6e;
+      position: relative;
+      padding: 10px;
+      display: block;
+      transition: color 0.3s ease;
+    }
 
-  a::after,
-  a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 3px;
-    left: 0;
-    background-color: #ceaf6e;
-    transform-origin: bottom center;
-    transition: transform 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
-  }
-  a::before {
-    top: 0;
-  }
+    a::after,
+    a::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 3px;
+      left: 0;
+      background-color: #ceaf6e;
+      transform-origin: bottom center;
+      transition: transform 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+    }
+    a::before {
+      top: 0;
+    }
 
-  a::after {
-    bottom: 0;
-  }
+    a::after {
+      bottom: 0;
+    }
 
-  a:hover::after,
-  a:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom center;
+    a:hover::after,
+    a:hover::before {
+      transform: scaleX(1);
+      transform-origin: bottom center;
+    }
   }
 }
 
@@ -112,8 +114,8 @@
   span {
     display: block;
     width: 40px;
-    height: 4px;
-    margin-bottom: 5px;
+    height: 2px;
+    margin-bottom: 6.5px;
     position: relative;
 
     background: #cdcdcd;

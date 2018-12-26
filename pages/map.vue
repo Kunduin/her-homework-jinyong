@@ -1,11 +1,12 @@
 <template>
   <div class="map-section">
     <div class="map-title">
-      <fade-background 
+      <fade-background
         style="height: 50px"
-        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/%E6%A0%87%E9%A2%98.png" />
+        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/%E6%A0%87%E9%A2%98.png"
+      />
     </div>
-    <MapSection/>
+    <MapSection />
   </div>
 </template>
 

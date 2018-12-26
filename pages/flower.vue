@@ -1,46 +1,54 @@
 <template>
   <div class="flower-section">
-    <div 
-      class="flower-title" 
-      style="padding-top: 120px;">
+    <div
+      class="flower-title"
+      style="padding-top: 120px;"
+    >
       <fade-background
         style="height: 50px"
-        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E6%A0%87%E9%A2%98.png" />
+        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E6%A0%87%E9%A2%98.png"
+      />
     </div>
-    <div 
-      class="flower-title" 
-      style="padding-top: 30px">
+    <div
+      class="flower-title"
+      style="padding-top: 30px"
+    >
       <fade-background
         style="height: 50px"
-        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E7%9A%84%E5%AD%97.png" />
+        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E7%9A%84%E5%AD%97.png"
+      />
     </div>
     <div class="flower-images">
-      <div 
-        v-for="item in rowOne" 
-        :key="item.id" 
-        style="cursor: pointer" 
-        @click="onRowOneClicked(item.id)">
+      <div
+        v-for="item in rowOne"
+        :key="item.id"
+        style="cursor: pointer"
+        @click="onRowOneClicked(item.id)"
+      >
         <flower-item
           :active="item.id===rowOneActive"
           :button="item.button"
-          :desc="item.desc"/>
+          :desc="item.desc"
+        />
       </div>
     </div>
 
     <div class="flower-images">
-      <div 
-        v-for="item in rowTwo" 
-        :key="item.id" 
-        style="cursor: pointer" 
-        @click="onRowTwoClicked(item.id)">
+      <div
+        v-for="item in rowTwo"
+        :key="item.id"
+        style="cursor: pointer"
+        @click="onRowTwoClicked(item.id)"
+      >
         <flower-item
           :active="item.id===rowTwoActive"
           :button="item.button"
-          :desc="item.desc"/>
+          :desc="item.desc"
+        />
       </div>
     </div>
     <div class="flower-images">
-      <div 
+      <div
         @mouseenter="changeFlowerState('HOVER')"
         @mouseleave="changeFlowerState('NORMAL')"
         @mousedown="changeFlowerState('ACTIVE')"
@@ -48,17 +56,20 @@
         <fade-background
           v-show="flowerState==='NORMAL'"
           style="height: 50px"
-          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AE.png" />
+          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AE.png"
+        />
 
         <fade-background
           v-show="flowerState==='HOVER'"
           style="height: 50px"
-          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AEhover.png" />
+          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AEhover.png"
+        />
 
         <fade-background
           v-show="flowerState==='ACTIVE'"
           style="height: 50px"
-          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AEactive.png" />
+          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AEactive.png"
+        />
       </div>
     </div>
   </div>
@@ -67,7 +78,7 @@
 <script>
 import FadeBackground from '~/components/FadeBackground/index.vue'
 import FlowerItem from '~/components/FlowerItem/index.vue'
-import { getRowOne, getRowTwo } from '../../components/FlowerItem/flowerConfig'
+import { getRowOne, getRowTwo } from '~/components/FlowerItem/flowerConfig'
 
 export default {
   components: {

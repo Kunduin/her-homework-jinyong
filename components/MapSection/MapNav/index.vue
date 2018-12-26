@@ -1,53 +1,59 @@
-<template xmlns:v-swiper="http://www.w3.org/1999/xhtml">
+<template xmlns:v-swiper="https://www.w3.org/1999/xhtml">
   <div class="map-nav">
     <div style="position: relative">
-
       <div
         :class="{'is-active':!active}"
-        class="map-nav__pre">
+        class="map-nav__pre"
+      >
         <div @click="onShow">
           <FadeBackground
             style="width: 300px;cursor: pointer"
-            src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/choose-smail.png" />
+            src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/choose-smail.png"
+          />
         </div>
-
       </div>
-
       <div
         :class="{'is-active':active}"
-        class="map-nav__board">
+        class="map-nav__board"
+      >
         <div
           class="map-nav__top-pointer"
-          @click="onHide">
+          @click="onHide"
+        >
           <FadeBackground
             style="width: 40px;cursor: pointer"
-            src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/%E7%AE%AD%E5%A4%B4-top.png" />
+            src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/%E7%AE%AD%E5%A4%B4-top.png"
+          />
         </div>
 
         <div class="board-section">
           <nav-arror
             class="swiper__prev"
-            left/>
+            left
+          />
           <div
             v-swiper:mySwiper="swiperOption"
-            class="images-section">
+            class="images-section"
+          >
             <div class="swiper-wrapper swiper-item">
               <div
                 v-for="banner in config"
                 :key="banner.id"
                 class="swiper-slide"
                 style="cursor: pointer;z-index: 10"
-                @click="$emit('select-id',banner.id)">
-              <FadeBackground :src="banner.book_url"/></div>
+                @click="$emit('select-id',banner.id)"
+              >
+                <FadeBackground :src="banner.book_url" />
+              </div>
             </div>
-
           </div>
-          <nav-arror class="swiper__next"/>
+          <nav-arror class="swiper__next" />
         </div>
 
         <FadeBackground
           style="width: 700px"
-          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/%E6%A1%86.png" />
+          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/%E6%A1%86.png"
+        />
       </div>
     </div>
   </div>
