@@ -409,63 +409,63 @@ export default () => [
         left:'773px',
         top:'737px',
         x:true,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E9%99%95%E8%A5%BF%E5%8D%8E%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png',
        },
        {
         //山东
         left:'1003px',
         top:'668px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E5%B1%B1%E4%B8%9C-%E9%97%A8%E6%B4%BE.png',
        },
        {
         //山东
         left:'960px',
         top:'686px',
         x:true,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E5%B1%B1%E4%B8%9C-%E4%BA%8B%E4%BB%B6.png',
        },
        {
         //辽宁盛京
         left:'1081px',
         top:'539px',
         x:true,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E8%BE%BD%E5%AE%81%E7%9B%9B%E4%BA%AC-%E4%BA%8B%E4%BB%B6.png',
        },
        {
         //江苏南京永胜
         left:'1013px',
         top:'735px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E6%B1%9F%E8%8B%8F%E5%8D%97%E4%BA%AC-%E6%B0%B8%E8%83%9C.png',
        },
        {
         //江苏南京金龙帮
         left:'1037px',
         top:'778px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E6%B1%9F%E8%8B%8F%E5%8D%97%E4%BA%AC-%E9%87%91%E9%BE%99.png',
        },
        {
         //河北
         left:'909px',
         top:'612px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E6%B2%B3%E5%8C%97-%E9%97%A8%E6%B4%BE.png',
        },
        {
         //云南大理苍山
         left:'552px',
         top:'1002px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86%E8%8B%8D%E5%B1%B1-%E9%97%A8%E6%B4%BE.png',
        },
        {
         //赣北江西
         left:'962px',
         top:'888px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E8%B5%A3%E5%8C%97%E6%B1%9F%E8%A5%BF-%E9%97%A8%E6%B4%BE.png',
        },
       ],
   },
@@ -480,63 +480,63 @@ export default () => [
         left:'858px',
         top:'754px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E9%97%A8%E6%B4%BE.png',
       },
       {
         //河南王屋山
         left:'863.50px',
         top:'700.50px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E7%8E%8B%E5%B1%8B%E6%B4%BE.png',
       },
       {
         //山西五台山
         left:'875.50px',
         top:'603px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E5%B1%B1%E8%A5%BF%E4%BA%94%E5%8F%B0%E5%B1%B1-%E9%97%A8%E6%B4%BE.png',
       },
       {
         //福建武夷山
         left:'1005.50px',
         top:'887px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E7%A6%8F%E5%BB%BA%E6%AD%A6%E5%A4%B7%E5%B1%B1-%E4%BA%94%E5%A4%B7%E6%B4%BE.png',
       },
       {
         //福建
         left:'1013px',
         top:'949px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E7%A6%8F%E5%BB%BA-%E5%A4%A9%E5%9C%B0%E4%BC%9A.png',
       },
       {
         //辽宁神龙岛
         left:'1053.50px',
         top:'582px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E8%BE%BD%E5%AE%81%E7%A5%9E%E9%BE%99%E5%B2%9B-%E7%A5%9E%E9%BE%99%E6%95%99.png',
       },
       {
         //辽宁锦州
         left:'1036.50px',
         top:'531px',
         x:false,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E8%BE%BD%E5%AE%81%E9%94%A6%E5%B7%9E-%E9%87%91%E9%A1%B6%E9%97%A8.png',
       },
       {
         //吉林长白山
         left:'1146.50px',
         top:'493.50px',
         x:true,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E5%90%89%E6%9E%97%E9%95%BF%E7%99%BD%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png',
       },
       {
         //云南昆明
         left:'616.50px',
         top:'969.50px',
         x:true,
-        desc:'',
+        desc:'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E-%E4%BA%8B%E4%BB%B6.png',
       },
     ]
   },
