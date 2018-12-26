@@ -3,11 +3,13 @@
     <fade-background
       v-show="active"
       class="point"
-      src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/point-active.png"/>
+      src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/point-active.png"
+    />
     <fade-background
       v-show="!active"
       class="point"
-      src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/target-normal.png"/>
+      src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/target-normal.png"
+    />
   </div>
 </template>
 
@@ -32,5 +34,10 @@ export default {
 .point {
   height: 15px;
   margin: 10px 20px;
+  transition: transform 0.2s;
+}
+
+.point:hover {
+  transform: scale(1.3);
 }
 </style>

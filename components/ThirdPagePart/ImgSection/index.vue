@@ -5,16 +5,19 @@
         <fade-background
           :src="descSrc"
           class="center-component_img1"
-          alt=""/>
+          alt=""
+        />
         <fade-background
           :src="buttonSrc"
           class="center-component_img2"
-          alt=""/>
+          alt=""
+        />
       </div>
     </div>
     <fade-background
       :src="backgroundSrc"
-      class="background-img"/>
+      class="background-img"
+    />
   </div>
 </template>
 
@@ -61,7 +64,13 @@ $page-section-height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s, background-color 0.4s;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+
   .center-component__img {
     display: flex;
     flex-direction: column;
@@ -81,6 +90,7 @@ $page-section-height: 60vh;
 }
 
 .img-cover {
+  overflow: hidden;
   position: relative;
   height: $page-section-height;
   margin-bottom: 20vh;

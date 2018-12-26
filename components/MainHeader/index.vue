@@ -65,7 +65,7 @@
       position: absolute;
       width: 100%;
       transform: scaleX(0);
-      height: 3px;
+      height: 2px;
       left: 0;
       background-color: #ceaf6e;
       transform-origin: bottom center;

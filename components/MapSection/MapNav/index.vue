@@ -43,7 +43,10 @@
                 style="cursor: pointer;z-index: 10"
                 @click="$emit('select-id',banner.id)"
               >
-                <FadeBackground :src="banner.book_url" />
+                <FadeBackground
+                  :src="banner.book_url"
+                  class="book"
+                />
               </div>
             </div>
           </div>
@@ -111,6 +114,15 @@ export default {
   .is-active {
     transform: translateY(0);
   }
+
+  .book {
+    transition: transform 0.3s;
+  }
+
+  .book:hover {
+    transform: scale(1.05) translateY(-4px);
+  }
+
   &__pre {
     transition: all 0.5s cubic-bezier(0.77, 0, 0.18, 1);
     transform: translateY(100%);

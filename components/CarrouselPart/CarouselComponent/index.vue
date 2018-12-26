@@ -1,51 +1,54 @@
 <template>
   <div class="carousel-section">
     <div class="gallery-section">
-      <div 
+      <div
         style="z-index: 10;cursor: pointer"
-        @click="onClickLeft">
+        @click="onClickLeft"
+      >
 
-        <carousel-arrow
-          left
-        />
+        <carousel-arrow left />
       </div>
       <div class="images-section">
         <carousel-img
           :position="position0"
-          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/carousel.jpg"/>
+          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/carousel.jpg"
+        />
         <carousel-img
           :position="position1"
-          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/carousel.jpg"/>
+          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/carousel.jpg"
+        />
         <carousel-img
           :position="position2"
-          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/carousel.jpg"/>
+          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/carousel.jpg"
+        />
       </div>
-      <div 
+      <div
         style="z-index: 10;cursor: pointer"
-        @click="onClickRight">
-        <carousel-arrow/>
+        @click="onClickRight"
+      >
+        <carousel-arrow />
 
       </div>
     </div>
     <div class="point-section">
-      <div 
+      <div
         style="z-index: 10;cursor: pointer"
-        @click="changePosition(2)">
-        <carousel-pointer
-          :active="position===2"/>
+        @click="changePosition(2)"
+      >
+        <carousel-pointer :active="position===2" />
 
       </div>
-      <div 
+      <div
         style="z-index: 10;cursor: pointer"
-        @click="changePosition(0)">
-        <carousel-pointer
-          :active="position===0"/>
+        @click="changePosition(0)"
+      >
+        <carousel-pointer :active="position===0" />
       </div>
-      <div 
+      <div
         style="z-index: 10;cursor: pointer"
-        @click="changePosition(1)">
-        <carousel-pointer
-          :active="position===1"/>
+        @click="changePosition(1)"
+      >
+        <carousel-pointer :active="position===1" />
       </div>
 
     </div>
@@ -113,6 +116,7 @@ export default {
     justify-content: space-between;
     width: 1000px;
     position: relative;
+    padding: 0 15px;
 
     .images-section {
       position: relative;
