@@ -14,18 +14,29 @@
           <span />
           <span />
           <div id="menu">
-            <nuxt-link to="/">
-              <div>主页</div>
-            </nuxt-link>
-            <nuxt-link to="/map">
-              <div>武侠版图</div>
-            </nuxt-link>
-            <nuxt-link to="/flower">
-              <div>献宝留言</div>
-            </nuxt-link>
-            <nuxt-link to="/topic">
-              <div>话题讨论</div>
-            </nuxt-link>
+            <div class="menu-nav">
+              <nuxt-link to="/">
+                <div>主页</div>
+              </nuxt-link>
+              <nuxt-link to="/map">
+                <div>武侠版图</div>
+              </nuxt-link>
+              <nuxt-link to="/flower">
+                <div>献宝留言</div>
+              </nuxt-link>
+              <nuxt-link to="/topic">
+                <div>话题讨论</div>
+              </nuxt-link>
+            </div>
+            <div class="menu-des">
+              <div>扫一扫，</div>
+              <div>开启属于你的武侠人生</div>
+              <img
+                style="width:130px"
+                alt
+                src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/code.png"
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -49,41 +60,16 @@
   .main-header__right {
     margin: 20px 60px;
     height: 12px;
+  }
+}
 
-    a {
-      text-decoration: none;
-      color: #ceaf6e;
-      position: relative;
-      padding: 10px;
-      display: block;
-      transition: color 0.3s ease;
-    }
+.menu-des {
+  color: #ceaf6e;
+  font-size: 13px;
+  padding: 0 30px 60px 60px;
 
-    a::after,
-    a::before {
-      content: '';
-      position: absolute;
-      width: 100%;
-      transform: scaleX(0);
-      height: 2px;
-      left: 0;
-      background-color: #ceaf6e;
-      transform-origin: bottom center;
-      transition: transform 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
-    }
-    a::before {
-      top: 0;
-    }
-
-    a::after {
-      bottom: 0;
-    }
-
-    a:hover::after,
-    a:hover::before {
-      transform: scaleX(1);
-      transform-origin: bottom center;
-    }
+  div {
+    margin-bottom: 5px;
   }
 }
 
@@ -189,11 +175,46 @@
 
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   left: -100px;
-  font-size: 20px;
-  text-align: center;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-top: 70px;
+  a {
+    text-decoration: none;
+    color: #ceaf6e;
+    position: relative;
+    padding: 5px 60px;
+    display: block;
+    transition: color 0.3s ease;
+    margin: 15px 0;
+  }
+
+  a::after,
+  a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    left: 0;
+    background-color: #ceaf6e;
+    transform-origin: bottom center;
+    transition: transform 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+  a::before {
+    top: 0;
+  }
+
+  a::after {
+    bottom: 0;
+  }
+
+  a:hover::after,
+  a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+  }
 }
 
 #menu li {
