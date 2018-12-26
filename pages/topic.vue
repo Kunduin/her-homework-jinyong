@@ -18,6 +18,13 @@
     <div class="topic-content">
       <nuxt-child />
     </div>
+
+    <div class="bottom-nav">
+      <fade-background
+        style="height: 25.5px;"
+        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/nav/bottomnav.png"
+      />
+    </div>
   </div>
 </template>
 
@@ -79,6 +86,13 @@ export default {
     display: flex;
     justify-content: center;
     padding-top: 10px;
+  }
+
+  .bottom-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
 }
 </style>

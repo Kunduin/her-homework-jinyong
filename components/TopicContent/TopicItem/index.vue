@@ -74,12 +74,13 @@ export default {
     .desc {
       font-size: 13px;
       line-height: 2em;
-      color: #a2a2a2;
+      color: #adadad;
       flex-grow: 1;
     }
 
     .extra {
-      font-size: 16px;
+      font-size: 12px;
+      color: #b9b9b9;
     }
   }
 }
