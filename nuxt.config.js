@@ -7,19 +7,26 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: '江湖数峰青',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href:
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/%E5%B1%B1%E6%B0%B4.png'
+      }
+    ]
   },
 
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#ceaf6e' },
 
   /*
   ** Global CSS
