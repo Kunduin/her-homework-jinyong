@@ -4,36 +4,41 @@
       <img
         class="main-header__left"
         alt=""
-        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/%E6%A0%87%E9%A2%98.png?x-oss-process=style/background">
-      <div
-        class="main-header__right">
+        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/%E6%A0%87%E9%A2%98.png?x-oss-process=style/background"
+      >
+      <div class="main-header__right">
         <div id="menuToggle">
-          <input type="checkbox" >
-          <span/>
-          <span/>
-          <ul id="menu">
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Info</li></a>
-            <a href="#"><li>Contact</li></a>
-            <a
-              href="https://erikterwan.com/"
-              target="_blank"><li>Show me more</li></a>
-          </ul>
+          <input type="checkbox">
+          <span />
+          <span />
+          <div id="menu">
+            <nuxt-link to="/">
+              <div>主页</div>
+            </nuxt-link>
+            <nuxt-link to="/map">
+              <div>武侠版图</div>
+            </nuxt-link>
+            <nuxt-link to="/flower">
+              <div>献宝留言</div>
+            </nuxt-link>
+            <nuxt-link to="/map">
+              <div>话题讨论</div>
+            </nuxt-link>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .main-header {
   width: 100%;
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 10;
+  z-index: 30;
 
   .main-header__left {
     margin: 20px 60px;
@@ -43,17 +48,41 @@
     margin: 20px 60px;
     height: 12px;
   }
-}
 
-a {
-  text-decoration: none;
-  color: #232323;
+  a {
+    text-decoration: none;
+    color: #ceaf6e;
+    position: relative;
+    padding: 10px;
+    display: block;
+    transition: color 0.3s ease;
+  }
 
-  transition: color 0.3s ease;
-}
+  a::after,
+  a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    left: 0;
+    background-color: #ceaf6e;
+    transform-origin: bottom center;
+    transition: transform 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+  a::before {
+    top: 0;
+  }
 
-a:hover {
-  color: tomato;
+  a::after {
+    bottom: 0;
+  }
+
+  a:hover::after,
+  a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+  }
 }
 
 #menuToggle {
@@ -117,7 +146,7 @@ a:hover {
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg);
-  background: #232323;
+  background: #ceaf6e;
 }
 
 /*
@@ -141,22 +170,28 @@ a:hover {
  */
 #menu {
   position: absolute;
-  width: 400px;
+  width: 350px;
   z-index: 1000;
   margin: -50px 0 0 -50px;
-  padding: 50px;
+  // padding: 50px;
 
   height: 100vh;
-  background: #ededed;
+  background: #1d1d1d;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
+  border-left: 3px solid #ceaf6e;
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
 
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   left: -200px;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 #menu li {
@@ -167,7 +202,7 @@ a:hover {
 /*
  * And let's slide it in from the left
  */
-#menuToggle input:checked ~ ul {
+#menuToggle input:checked ~ #menu {
   transform: none;
 }
 </style>
