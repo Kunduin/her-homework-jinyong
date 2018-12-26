@@ -34,10 +34,5 @@ export default {
 .point {
   height: 15px;
   margin: 10px 20px;
-  transition: transform 0.2s;
-}
-
-.point:hover {
-  transform: scale(1.3);
 }
 </style>

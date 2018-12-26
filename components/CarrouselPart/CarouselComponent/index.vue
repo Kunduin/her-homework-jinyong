@@ -32,20 +32,20 @@
     </div>
     <div class="point-section">
       <div
-        style="z-index: 10;cursor: pointer"
+        class="point"
         @click="changePosition(2)"
       >
         <carousel-pointer :active="position===2" />
 
       </div>
       <div
-        style="z-index: 10;cursor: pointer"
+        class="point"
         @click="changePosition(0)"
       >
         <carousel-pointer :active="position===0" />
       </div>
       <div
-        style="z-index: 10;cursor: pointer"
+        class="point"
         @click="changePosition(1)"
       >
         <carousel-pointer :active="position===1" />
@@ -128,6 +128,19 @@ export default {
 
   .point-section {
     display: flex;
+    .point {
+      transition: transform 0.2s;
+      z-index: 10;
+      cursor: pointer;
+    }
+
+    .point:hover {
+      transform: scale(1.3);
+    }
+
+    .point:active {
+      transform: scale(1.1);
+    }
   }
 }
 </style>
