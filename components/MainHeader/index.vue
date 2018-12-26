@@ -32,7 +32,7 @@
               <div>扫一扫，</div>
               <div>开启属于你的武侠人生</div>
               <img
-                style="width:130px"
+                style="width:90px"
                 alt
                 src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/code.png"
               >
