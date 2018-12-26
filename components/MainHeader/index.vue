@@ -172,24 +172,24 @@
  */
 #menu {
   position: absolute;
-  width: 350px;
+  width: 250px;
   z-index: 1000;
   margin: -50px 0 0 -50px;
   // padding: 50px;
 
-  height: 100vh;
+  height: 100.5vh;
   background: #1d1d1d;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
 
-  border-left: 3px solid #ceaf6e;
+  border-left: 2px solid #ceaf6e;
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
 
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  left: -200px;
-  font-size: 25px;
+  left: -100px;
+  font-size: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
