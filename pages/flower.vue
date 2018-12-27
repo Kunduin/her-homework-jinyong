@@ -55,31 +55,13 @@
     </div>
     <div class="flower-images">
       <div
-        @mouseenter="changeFlowerState('HOVER')"
-        @mouseleave="changeFlowerState('NORMAL')"
-        @mousedown="changeFlowerState('ACTIVE')"
-      >
-        <img
-          v-show="flowerState==='NORMAL'"
-          alt=""
-          style="height: 50px;cursor:pointer"
-          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AE.png"
-        >
-
-        <img
-          v-show="flowerState==='HOVER'"
-          alt=""
-          style="height: 50px;cursor:pointer"
-          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AEhover.png"
-        >
-
-        <img
-          v-show="flowerState==='ACTIVE'"
-          alt=""
-          style="height: 50px;cursor:pointer"
-          src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AEactive.png"
-        >
-      </div>
+        :class="button"
+        style="transform:scale(0.5)"
+        @mouseenter="changeFlowerState('bg-hover')"
+        @mouseleave="changeFlowerState('bg-normal')"
+        @mousedown="changeFlowerState('bg-active')"
+        @mouseup="changeFlowerState('bg-success')"
+      />
     </div>
   </div>
 </template>
@@ -101,7 +83,8 @@ export default {
       rowTwo: getRowTwo(),
       rowTwoActive: 6,
       flowerState: 'NORMAL',
-      selectedIndex: 0
+      selectedIndex: 0,
+      button: 'bg-normal'
     }
   },
   methods: {
@@ -113,7 +96,9 @@ export default {
       }
     },
     changeFlowerState(state) {
-      this.flowerState = state
+      if (this.button !== 'bg-success') {
+        this.button = state
+      }
     },
     onRowOneClicked(id) {
       if (this.rowOneActive !== id) {
@@ -148,5 +133,32 @@ export default {
     justify-content: center;
     padding-top: 40px;
   }
+}
+
+.bg-success {
+  width: 250px;
+  height: 100px;
+  background: url('https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/css/css_sprites.png') -6px -6px;
+}
+
+.bg-normal {
+  cursor: pointer;
+  width: 250px;
+  height: 100px;
+  background: url('https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/css/css_sprites.png') -6px -118px;
+}
+
+.bg-active {
+  cursor: pointer;
+  width: 250px;
+  height: 100px;
+  background: url('https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/css/css_sprites.png') -268px -6px;
+}
+
+.bg-hover {
+  cursor: pointer;
+  width: 250px;
+  height: 100px;
+  background: url('https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/css/css_sprites.png') -268px -118px;
 }
 </style>
