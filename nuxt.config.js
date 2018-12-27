@@ -2,7 +2,9 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'universal',
-
+  // router: {
+  //   base: '/2016g8/www/'
+  // },
   /*
   ** Headers of the page
   */
