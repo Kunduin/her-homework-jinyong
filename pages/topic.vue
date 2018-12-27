@@ -35,7 +35,7 @@
         <div>6</div>
       </div>
       <fade-background
-        style="height:25.5px;"
+        style="height:25.5px;visibility:hidden"
         src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/nav/bottomnav.png"
       />
     </div>
@@ -134,6 +134,7 @@ export default {
       div {
         width: 30px;
         color: rgb(206, 175, 110);
+        border: 1px solid rgb(206, 175, 110);
         height: 99%;
         display: flex;
         justify-content: center;
