@@ -10,7 +10,10 @@
       </nuxt-link>
       <div class="main-header__right">
         <div id="menuToggle">
-          <input type="checkbox">
+          <input
+            v-model="checked"
+            type="checkbox"
+          >
           <span />
           <span />
           <div id="menu">
@@ -41,10 +44,47 @@
         </div>
       </div>
     </div>
+    <div
+      v-if="checked"
+      class="mask"
+      @click="close()"
+    />
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      checked: false
+    }
+  },
+
+  watch: {
+    $route(to, from) {
+      this.close()
+    }
+  },
+  methods: {
+    close() {
+      this.checked = false
+    }
+  }
+}
+</script>
+
+
 <style lang="scss" scoped>
+.mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: background-color 0.4s;
+  z-index: 25;
+}
+
 .main-header {
   width: 100%;
   position: fixed;
