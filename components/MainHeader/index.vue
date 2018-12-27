@@ -37,7 +37,7 @@
               <img
                 style="width:90px"
                 alt
-                src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/code.png"
+                src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/basic/%E4%BA%8C%E7%BB%B4%E7%A0%81.png"
               >
             </div>
           </div>
