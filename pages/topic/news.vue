@@ -63,7 +63,7 @@ const getPage = id => {
       return [
         {
           img:
-            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/selected/%E7%B2%BE%E5%93%811.jpg',
+            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/news/%E8%B5%84%E8%AE%AF6.png',
           title: '数说金庸｜金庸笔下诞生的1427个人物',
           desc: [
             '怀念经典是人生一大乐事，特别是酣畅淋漓的武侠经典。金庸武侠小说之所以成为经典，不仅归功于其曲折动人的故事情节，而且有赖于书中刻画的众多个性鲜明突出的人物'
@@ -72,7 +72,7 @@ const getPage = id => {
         },
         {
           img:
-            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/selected/%E7%B2%BE%E5%93%812.jpg',
+            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/news/%E8%B5%84%E8%AE%AF7.png',
           title: '金庸年表',
           desc: [
             '“凡是有中国人的地方，就有金庸的武侠小说。”这样的评价毫不夸张。金庸先生用一支笔，在很多人心里，种下了一个武侠梦。'
@@ -81,7 +81,7 @@ const getPage = id => {
         },
         {
           img:
-            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/selected/%E7%B2%BE%E5%93%813.jpg',
+            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/news/%E8%B5%84%E8%AE%AF8.png',
           title: '金庸武侠年表 终于把每部人物关系串起来了',
           desc: [
             '金庸的作品假设发生在我们的现实时空之中，那么发生在何时代相对合理？'
@@ -90,14 +90,14 @@ const getPage = id => {
         },
         {
           img:
-            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/selected/%E7%B2%BE%E5%93%814.jpg',
+            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/news/%E8%B5%84%E8%AE%AF9.png',
           title: '金庸小说人物关系谱',
           desc: ['金庸小说里这些剪不断理还乱的人物关系你理清了吗？'],
           bubble: 723
         },
         {
           img:
-            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/selected/%E7%B2%BE%E5%93%815.jpg',
+            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/news/%E8%B5%84%E8%AE%AF10.png',
           title: '快意恩仇：重温金庸小说经典语录',
           desc: [
             '金庸以15部小说构建的武侠世界，影响了几代中国青年。而在金庸的武侠小说里不乏经典语句，用以抒发主人公的快意恩仇。句句精辟、字字千金，长久萦绕在读者心中。'
