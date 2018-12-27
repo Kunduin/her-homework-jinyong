@@ -1,5 +1,8 @@
 <template>
-  <div class="img-cover">
+  <div
+    id="scroll-target"
+    class="img-cover"
+  >
     <div class="center-component">
       <div class="center-component__img">
         <carousel-component />

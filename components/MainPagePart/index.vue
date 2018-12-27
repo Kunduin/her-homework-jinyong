@@ -15,12 +15,16 @@
       </div>
 
     </div>
-
-    <fade-background
-      class="center-component_img3"
-      src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/arror.png?x-oss-process=style/background"
-      alt=""
-    />
+    <a
+      v-scroll-to="'#scroll-target'"
+      href="#"
+    >
+      <fade-background
+        class="center-component_img3 scroll-section"
+        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/carrousel/arror.png?x-oss-process=style/background"
+        alt=""
+      />
+    </a>
     <fade-background
       class="background-img"
       src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/mainpage/BackgroundMain.jpg"
@@ -40,6 +44,25 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.scroll-section {
+  animation: infiniteshick 4s infinite;
+  transition: transform 0.5s;
+}
+
+.scroll-section:hover {
+  animation: none;
+}
+
+@keyframes infiniteshick {
+  90%,
+  100% {
+    transform: translateY(0);
+  }
+  95% {
+    transform: translateY(10px);
+  }
+}
+
 .background-img {
   object-fit: cover;
   height: 100vh;
