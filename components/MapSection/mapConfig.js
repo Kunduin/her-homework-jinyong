@@ -31,7 +31,7 @@ export default () => [
     //天龙八部
     id: 2,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page1/%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page1/%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8.png',
     point: [
       {
         //吐蕃大雪山
@@ -39,7 +39,7 @@ export default () => [
         top: '748px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E5%90%90%E8%95%83%E5%A4%A7%E9%9B%AA%E5%B1%B1.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E5%90%90%E8%95%83%E5%A4%A7%E9%9B%AA%E5%B1%B1.png'
       },
       {
         //西夏一品堂
@@ -47,7 +47,7 @@ export default () => [
         top: '594px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E8%A5%BF%E5%A4%8F%E4%B8%80%E5%93%81%E5%A0%82.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E8%A5%BF%E5%A4%8F%E4%B8%80%E5%93%81%E5%A0%82.png'
       },
       {
         //新疆天山
@@ -55,7 +55,7 @@ export default () => [
         top: '416px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E6%96%B0%E7%96%86%E5%A4%A9%E5%B1%B1.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E6%96%B0%E7%96%86%E5%A4%A9%E5%B1%B1.png'
       },
       {
         //青海星宿派
@@ -63,7 +63,7 @@ export default () => [
         top: '685px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E9%9D%92%E6%B5%B7%E6%98%9F%E5%AE%BF%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E9%9D%92%E6%B5%B7%E6%98%9F%E5%AE%BF%E6%B4%BE.png'
       },
       {
         //丐帮
@@ -71,7 +71,7 @@ export default () => [
         top: '699px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E4%B8%90%E5%B8%AE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E4%B8%90%E5%B8%AE.png'
       },
       {
         //河南
@@ -79,7 +79,7 @@ export default () => [
         top: '740px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E6%B2%B3%E5%8D%97.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E6%B2%B3%E5%8D%97.png'
       },
       {
         //雁门关
@@ -87,7 +87,7 @@ export default () => [
         top: '580px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E9%9B%81%E9%97%A8%E5%85%B3.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E9%9B%81%E9%97%A8%E5%85%B3.png'
       },
       {
         //云南大理
@@ -95,7 +95,7 @@ export default () => [
         top: '928px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86.png'
       },
       {
         //江苏无锡
@@ -103,7 +103,7 @@ export default () => [
         top: '766px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E6%97%A0%E9%94%A1.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E6%97%A0%E9%94%A1.png'
       },
       {
         //山东泰山
@@ -111,7 +111,7 @@ export default () => [
         top: '1463px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E5%B1%B1%E4%B8%9C%E6%B3%B0%E5%B1%B1.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/tianlongbabu/%E5%B1%B1%E4%B8%9C%E6%B3%B0%E5%B1%B1.png'
       }
     ]
   },
@@ -119,7 +119,7 @@ export default () => [
     //射雕英雄传
     id: 3,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page1/%E5%B0%84%E9%9B%95%E8%8B%B1%E9%9B%84%E4%BC%A0.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page1/%E5%B0%84%E9%9B%95%E8%8B%B1%E9%9B%84%E4%BC%A0.png',
     point: [
       {
         //江苏
@@ -127,7 +127,7 @@ export default () => [
         top: '766px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B1%9F%E8%8B%8F%E5%A7%91%E8%8B%8F.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B1%9F%E8%8B%8F%E5%A7%91%E8%8B%8F.png'
       },
       {
         //河北
@@ -135,7 +135,7 @@ export default () => [
         top: '597px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B2%B3%E5%8C%97%E9%BB%91%E6%9C%A8%E5%B4%96.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B2%B3%E5%8C%97%E9%BB%91%E6%9C%A8%E5%B4%96.png'
       },
       {
         //四川
@@ -143,7 +143,7 @@ export default () => [
         top: '821px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E5%9B%9B%E5%B7%9D%E5%B3%A8%E7%9C%89%E5%B1%B1.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E5%9B%9B%E5%B7%9D%E5%B3%A8%E7%9C%89%E5%B1%B1.png'
       },
       {
         //湖北
@@ -151,7 +151,7 @@ export default () => [
         top: '800px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B9%96%E5%8C%97.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B9%96%E5%8C%97.png'
       },
       {
         //浙江
@@ -159,7 +159,7 @@ export default () => [
         top: '812px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B5%99%E6%B1%9F%E8%88%9F%E5%B1%B1.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E6%B5%99%E6%B1%9F%E8%88%9F%E5%B1%B1.png'
       },
       {
         //陕西
@@ -167,7 +167,7 @@ export default () => [
         top: '691px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E5%8D%8E%E5%B1%B1.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shediaoyingxiong/%E5%8D%8E%E5%B1%B1.png'
       }
     ]
   },
@@ -175,7 +175,7 @@ export default () => [
     //神雕侠侣
     id: 4,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page1/%E7%A5%9E%E9%9B%95.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page1/%E7%A5%9E%E9%9B%95.png',
     point: [
       {
         //浙江
@@ -183,7 +183,7 @@ export default () => [
         top: '836px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shendiaoxialv/%E6%B5%99%E6%B1%9F%E5%98%89%E5%85%B4.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shendiaoxialv/%E6%B5%99%E6%B1%9F%E5%98%89%E5%85%B4.png'
       },
       {
         //河南
@@ -191,7 +191,7 @@ export default () => [
         top: '723px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shendiaoxialv/%E6%B2%B3%E5%8D%97.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shendiaoxialv/%E6%B2%B3%E5%8D%97.png'
       },
       {
         //陕西
@@ -199,7 +199,7 @@ export default () => [
         top: '691px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shendiaoxialv/%E5%8D%8E%E5%B1%B1.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shendiaoxialv/%E5%8D%8E%E5%B1%B1.png'
       }
     ]
   },
@@ -207,7 +207,7 @@ export default () => [
     //倚天屠龙记
     id: 5,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page1/%E5%80%9A%E5%A4%A9.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page1/%E5%80%9A%E5%A4%A9.png',
     point: [
       {
         //江苏
@@ -215,7 +215,7 @@ export default () => [
         top: '723px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yitiantulongji/%E6%B1%9F%E5%8D%97.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yitiantulongji/%E6%B1%9F%E5%8D%97.png'
       },
       {
         //甘肃
@@ -223,7 +223,7 @@ export default () => [
         top: '672px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yitiantulongji/%E7%94%98%E8%82%83%E5%B4%86%E5%B3%92%E5%B1%B1.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yitiantulongji/%E7%94%98%E8%82%83%E5%B4%86%E5%B3%92%E5%B1%B1.png'
       },
       {
         //光明顶
@@ -231,7 +231,7 @@ export default () => [
         top: '580px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yitiantulongji/%E5%85%89%E6%98%8E%E9%A1%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yitiantulongji/%E5%85%89%E6%98%8E%E9%A1%B6.png'
       },
       {
         //四川
@@ -239,7 +239,7 @@ export default () => [
         top: '821px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yitiantulongji/%E5%9B%9B%E5%B7%9D%E5%B3%A8%E7%9C%89%E5%B1%B1.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yitiantulongji/%E5%9B%9B%E5%B7%9D%E5%B3%A8%E7%9C%89%E5%B1%B1.png'
       },
       {
         //湖北
@@ -247,7 +247,7 @@ export default () => [
         top: '807px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yitiantulongji/%E6%B9%96%E5%8C%97%E6%AD%A6%E5%BD%93.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/yitiantulongji/%E6%B9%96%E5%8C%97%E6%AD%A6%E5%BD%93.png'
       }
     ]
   },
@@ -255,7 +255,7 @@ export default () => [
     //侠客行
     id: 6,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page2/%E4%BE%A0%E5%AE%A2.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page2/%E4%BE%A0%E5%AE%A2.png',
     point: [
       {
         //山西恒山
@@ -263,7 +263,7 @@ export default () => [
         top: '652px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E5%B1%B1%E8%A5%BF%E6%81%92%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E5%B1%B1%E8%A5%BF%E6%81%92%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //湖北武当
@@ -271,7 +271,7 @@ export default () => [
         top: '810px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E6%B9%96%E5%8C%97%E6%AD%A6%E5%BD%93-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E6%B9%96%E5%8C%97%E6%AD%A6%E5%BD%93-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //西域
@@ -279,7 +279,7 @@ export default () => [
         top: '810px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E8%A5%BF%E5%9F%9F-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E8%A5%BF%E5%9F%9F-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //辽宁
@@ -287,7 +287,7 @@ export default () => [
         top: '523px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E8%BE%BD%E5%AE%81-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E8%BE%BD%E5%AE%81-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //南海
@@ -295,7 +295,7 @@ export default () => [
         top: '1150px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E5%8D%97%E6%B5%B7-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E5%8D%97%E6%B5%B7-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //南海
@@ -303,7 +303,7 @@ export default () => [
         top: '1162px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E5%8D%97%E6%B5%B7-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E5%8D%97%E6%B5%B7-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //江南
@@ -311,7 +311,7 @@ export default () => [
         top: '849px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E6%B1%9F%E5%8D%97-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E6%B1%9F%E5%8D%97-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //山西雁门关外
@@ -319,7 +319,7 @@ export default () => [
         top: '549px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E5%B1%B1%E8%A5%BF%E9%9B%81%E9%97%A8%E5%85%B3%E5%A4%96-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiakexing/%E5%B1%B1%E8%A5%BF%E9%9B%81%E9%97%A8%E5%85%B3%E5%A4%96-%E9%97%A8%E6%B4%BE.png'
       }
     ]
   },
@@ -327,7 +327,7 @@ export default () => [
     //笑傲江湖
     id: 7,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page2/%E7%AC%91%E5%82%B2.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page2/%E7%AC%91%E5%82%B2.png',
     point: [
       {
         //云南五毒教
@@ -335,7 +335,7 @@ export default () => [
         top: '944px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E4%BA%91%E5%8D%97-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E4%BA%91%E5%8D%97-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //河北黑木崖
@@ -343,7 +343,7 @@ export default () => [
         top: '601px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B2%B3%E5%8C%97%E9%BB%91%E6%9C%A8%E5%B4%96-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B2%B3%E5%8C%97%E9%BB%91%E6%9C%A8%E5%B4%96-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //河北黑木崖
@@ -351,7 +351,7 @@ export default () => [
         top: '644px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B2%B3%E5%8C%97%E9%BB%91%E6%9C%A8%E5%B4%96-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B2%B3%E5%8C%97%E9%BB%91%E6%9C%A8%E5%B4%96-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //福建
@@ -359,7 +359,7 @@ export default () => [
         top: '964px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E7%A6%8F%E5%BB%BA-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E7%A6%8F%E5%BB%BA-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //福建
@@ -367,7 +367,7 @@ export default () => [
         top: '933px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E7%A6%8F%E5%BB%BA-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E7%A6%8F%E5%BB%BA-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //湖北武当
@@ -375,7 +375,7 @@ export default () => [
         top: '824px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B9%96%E5%8C%97%E6%AD%A6%E5%BD%93-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B9%96%E5%8C%97%E6%AD%A6%E5%BD%93-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //湖北武当
@@ -383,7 +383,7 @@ export default () => [
         top: '800px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B9%96%E5%8C%97%E6%AD%A6%E5%BD%93-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B9%96%E5%8C%97%E6%AD%A6%E5%BD%93-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //河南嵩山
@@ -391,7 +391,7 @@ export default () => [
         top: '730px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //山东泰山
@@ -399,7 +399,7 @@ export default () => [
         top: '669px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E5%B1%B1%E4%B8%9C%E6%B3%B0%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E5%B1%B1%E4%B8%9C%E6%B3%B0%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //湖南衡山
@@ -407,7 +407,7 @@ export default () => [
         top: '921px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B9%96%E5%8D%97%E8%A1%A1%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B9%96%E5%8D%97%E8%A1%A1%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //湖南衡山
@@ -415,7 +415,7 @@ export default () => [
         top: '943px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B9%96%E5%8D%97%E8%A1%A1%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E6%B9%96%E5%8D%97%E8%A1%A1%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //山西恒山
@@ -423,7 +423,7 @@ export default () => [
         top: '672px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E5%B1%B1%E8%A5%BF%E6%81%92%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E5%B1%B1%E8%A5%BF%E6%81%92%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //陕西华山
@@ -431,7 +431,7 @@ export default () => [
         top: '760px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E5%B1%B1%E8%A5%BF%E5%8D%8E%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E5%B1%B1%E8%A5%BF%E5%8D%8E%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //陕西华山
@@ -439,7 +439,7 @@ export default () => [
         top: '739px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E9%99%95%E8%A5%BF%E5%8D%8E%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/xiaoaojianghu/%E9%99%95%E8%A5%BF%E5%8D%8E%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
       }
     ]
   },
@@ -447,7 +447,7 @@ export default () => [
     //碧血剑
     id: 8,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page2/%E7%A2%A7%E8%A1%80%E5%89%91.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page2/%E7%A2%A7%E8%A1%80%E5%89%91.png',
     point: [
       {
         //陕西华山
@@ -455,7 +455,7 @@ export default () => [
         top: '737px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E9%99%95%E8%A5%BF%E5%8D%8E%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E9%99%95%E8%A5%BF%E5%8D%8E%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //山东
@@ -463,7 +463,7 @@ export default () => [
         top: '668px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E5%B1%B1%E4%B8%9C-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E5%B1%B1%E4%B8%9C-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //山东
@@ -471,7 +471,7 @@ export default () => [
         top: '686px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E5%B1%B1%E4%B8%9C-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E5%B1%B1%E4%B8%9C-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //辽宁盛京
@@ -479,7 +479,7 @@ export default () => [
         top: '539px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E8%BE%BD%E5%AE%81%E7%9B%9B%E4%BA%AC-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E8%BE%BD%E5%AE%81%E7%9B%9B%E4%BA%AC-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //江苏南京永胜
@@ -487,7 +487,7 @@ export default () => [
         top: '735px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E6%B1%9F%E8%8B%8F%E5%8D%97%E4%BA%AC-%E6%B0%B8%E8%83%9C.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E6%B1%9F%E8%8B%8F%E5%8D%97%E4%BA%AC-%E6%B0%B8%E8%83%9C.png'
       },
       {
         //江苏南京金龙帮
@@ -495,7 +495,7 @@ export default () => [
         top: '778px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E6%B1%9F%E8%8B%8F%E5%8D%97%E4%BA%AC-%E9%87%91%E9%BE%99.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E6%B1%9F%E8%8B%8F%E5%8D%97%E4%BA%AC-%E9%87%91%E9%BE%99.png'
       },
       {
         //河北
@@ -503,7 +503,7 @@ export default () => [
         top: '612px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E6%B2%B3%E5%8C%97-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E6%B2%B3%E5%8C%97-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //云南大理苍山
@@ -511,7 +511,7 @@ export default () => [
         top: '1002px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86%E8%8B%8D%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E4%BA%91%E5%8D%97%E5%A4%A7%E7%90%86%E8%8B%8D%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //赣北江西
@@ -519,7 +519,7 @@ export default () => [
         top: '888px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E8%B5%A3%E5%8C%97%E6%B1%9F%E8%A5%BF-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/bixuejian/%E8%B5%A3%E5%8C%97%E6%B1%9F%E8%A5%BF-%E9%97%A8%E6%B4%BE.png'
       }
     ]
   },
@@ -527,7 +527,7 @@ export default () => [
     //鹿鼎记
     id: 9,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page2/%E9%B9%BF.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page2/%E9%B9%BF.png',
     point: [
       {
         //河南嵩山
@@ -535,7 +535,7 @@ export default () => [
         top: '754px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //河南王屋山
@@ -543,7 +543,7 @@ export default () => [
         top: '700.50px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E7%8E%8B%E5%B1%8B%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E7%8E%8B%E5%B1%8B%E6%B4%BE.png'
       },
       {
         //山西五台山
@@ -551,7 +551,7 @@ export default () => [
         top: '603px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E5%B1%B1%E8%A5%BF%E4%BA%94%E5%8F%B0%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E5%B1%B1%E8%A5%BF%E4%BA%94%E5%8F%B0%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //福建武夷山
@@ -559,7 +559,7 @@ export default () => [
         top: '887px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E7%A6%8F%E5%BB%BA%E6%AD%A6%E5%A4%B7%E5%B1%B1-%E4%BA%94%E5%A4%B7%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E7%A6%8F%E5%BB%BA%E6%AD%A6%E5%A4%B7%E5%B1%B1-%E4%BA%94%E5%A4%B7%E6%B4%BE.png'
       },
       {
         //福建
@@ -567,7 +567,7 @@ export default () => [
         top: '949px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E7%A6%8F%E5%BB%BA-%E5%A4%A9%E5%9C%B0%E4%BC%9A.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E7%A6%8F%E5%BB%BA-%E5%A4%A9%E5%9C%B0%E4%BC%9A.png'
       },
       {
         //辽宁神龙岛
@@ -575,7 +575,7 @@ export default () => [
         top: '582px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E8%BE%BD%E5%AE%81%E7%A5%9E%E9%BE%99%E5%B2%9B-%E7%A5%9E%E9%BE%99%E6%95%99.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E8%BE%BD%E5%AE%81%E7%A5%9E%E9%BE%99%E5%B2%9B-%E7%A5%9E%E9%BE%99%E6%95%99.png'
       },
       {
         //辽宁锦州
@@ -583,7 +583,7 @@ export default () => [
         top: '531px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E8%BE%BD%E5%AE%81%E9%94%A6%E5%B7%9E-%E9%87%91%E9%A1%B6%E9%97%A8.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E8%BE%BD%E5%AE%81%E9%94%A6%E5%B7%9E-%E9%87%91%E9%A1%B6%E9%97%A8.png'
       },
       {
         //吉林长白山
@@ -591,7 +591,7 @@ export default () => [
         top: '493.50px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E5%90%89%E6%9E%97%E9%95%BF%E7%99%BD%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E5%90%89%E6%9E%97%E9%95%BF%E7%99%BD%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //云南昆明
@@ -599,7 +599,7 @@ export default () => [
         top: '969.50px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/ludingji/%E4%BA%91%E5%8D%97%E6%98%86%E6%98%8E-%E4%BA%8B%E4%BB%B6.png'
       }
     ]
   },
@@ -607,7 +607,7 @@ export default () => [
     //书剑恩仇录
     id: 10,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page2/%E4%B9%A6.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page2/%E4%B9%A6.png',
     point: [
       {
         //福建莆田
@@ -615,7 +615,7 @@ export default () => [
         top: '966px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E7%A6%8F%E5%BB%BA%E8%8E%86%E7%94%B0-%E5%8D%97%E5%B0%91%E6%9E%97.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E7%A6%8F%E5%BB%BA%E8%8E%86%E7%94%B0-%E5%8D%97%E5%B0%91%E6%9E%97.png'
       },
       {
         //河南嵩山
@@ -623,7 +623,7 @@ export default () => [
         top: '754px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E5%B5%A9%E9%98%B3%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E5%B5%A9%E9%98%B3%E6%B4%BE.png'
       },
       {
         //陕西潼关
@@ -631,7 +631,7 @@ export default () => [
         top: '725.50px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E9%99%95%E8%A5%BF%E6%BD%BC%E5%85%B3-%E9%BE%99%E9%97%A8%E5%B8%AE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E9%99%95%E8%A5%BF%E6%BD%BC%E5%85%B3-%E9%BE%99%E9%97%A8%E5%B8%AE.png'
       },
       {
         //湖南辰州
@@ -639,7 +639,7 @@ export default () => [
         top: '880.50px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E6%B9%96%E5%8D%97%E8%BE%B0%E5%B7%9E-%E8%A8%80%E5%AE%B6%E6%8B%B3.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E6%B9%96%E5%8D%97%E8%BE%B0%E5%B7%9E-%E8%A8%80%E5%AE%B6%E6%8B%B3.png'
       },
       {
         //江南
@@ -647,7 +647,7 @@ export default () => [
         top: '794.50px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E6%B1%9F%E5%8D%97-%E7%BA%A2%E8%8A%B1%E4%BC%9A.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E6%B1%9F%E5%8D%97-%E7%BA%A2%E8%8A%B1%E4%BC%9A.png'
       },
       {
         //新疆天山
@@ -655,7 +655,7 @@ export default () => [
         top: '444px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E6%96%B0%E7%96%86%E5%A4%A9%E5%B1%B1-%E5%A4%A9%E5%B1%B1%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E6%96%B0%E7%96%86%E5%A4%A9%E5%B1%B1-%E5%A4%A9%E5%B1%B1%E6%B4%BE.png'
       },
       {
         //浙江海宁
@@ -663,7 +663,7 @@ export default () => [
         top: '883.50px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E6%B5%99%E6%B1%9F%E6%B5%B7%E5%AE%81-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E6%B5%99%E6%B1%9F%E6%B5%B7%E5%AE%81-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //北京
@@ -671,7 +671,7 @@ export default () => [
         top: '568.50px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E5%8C%97%E4%BA%AC-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E5%8C%97%E4%BA%AC-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //甘肃甘凉道
@@ -679,7 +679,7 @@ export default () => [
         top: '611px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E7%94%98%E8%82%83%E7%94%98%E5%87%89%E9%81%93-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/shujianenchoulu/%E7%94%98%E8%82%83%E7%94%98%E5%87%89%E9%81%93-%E4%BA%8B%E4%BB%B6.png'
       }
     ]
   },
@@ -687,7 +687,7 @@ export default () => [
     //飞狐外传
     id: 11,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page3/%E9%A3%9E%E7%8B%90%E5%A4%96%E4%BC%A0.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page3/%E9%A3%9E%E7%8B%90%E5%A4%96%E4%BC%A0.png',
     point: [
       {
         //湖南衡阳
@@ -695,7 +695,7 @@ export default () => [
         top: '932px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/11feihuwaizhuan/%E6%B9%96%E5%8D%97%E8%A1%A1%E9%98%B3-%E6%9E%AB%E5%8F%B6%E5%BA%84.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/11feihuwaizhuan/%E6%B9%96%E5%8D%97%E8%A1%A1%E9%98%B3-%E6%9E%AB%E5%8F%B6%E5%BA%84.png'
       },
       {
         //北京
@@ -703,7 +703,7 @@ export default () => [
         top: '571.50px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/11feihuwaizhuan/%E5%8C%97%E4%BA%AC-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/11feihuwaizhuan/%E5%8C%97%E4%BA%AC-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //河南嵩山
@@ -711,7 +711,7 @@ export default () => [
         top: '754px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/11feihuwaizhuan/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/11feihuwaizhuan/%E6%B2%B3%E5%8D%97%E5%B5%A9%E5%B1%B1-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //福建
@@ -727,7 +727,7 @@ export default () => [
         top: '880.50px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/11feihuwaizhuan/%E6%B8%A9%E5%B7%9E-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/11feihuwaizhuan/%E6%B8%A9%E5%B7%9E-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //湖北
@@ -735,7 +735,7 @@ export default () => [
         top: '788.50px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/11feihuwaizhuan/%E6%B9%96%E5%8C%97%E6%AD%A6%E5%BD%93-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/11feihuwaizhuan/%E6%B9%96%E5%8C%97%E6%AD%A6%E5%BD%93-%E4%BA%8B%E4%BB%B6.png'
       }
     ]
   },
@@ -743,7 +743,7 @@ export default () => [
     //雪山飞狐
     id: 12,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page3/%E9%9B%AA%E5%B1%B1.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page3/%E9%9B%AA%E5%B1%B1.png',
     point: [
       {
         //河南
@@ -751,7 +751,7 @@ export default () => [
         top: '725.50px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/12xueshanfeihu/%E6%B2%B3%E5%8D%97-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/12xueshanfeihu/%E6%B2%B3%E5%8D%97-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //青藏
@@ -767,7 +767,7 @@ export default () => [
         top: '664.50px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/12xueshanfeihu/%E5%B1%B1%E4%B8%9C-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/12xueshanfeihu/%E5%B1%B1%E4%B8%9C-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //河北沧州
@@ -775,7 +775,7 @@ export default () => [
         top: '623.50px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/12xueshanfeihu/%E6%B2%B3%E5%8C%97%E6%B2%A7%E5%B7%9E-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/12xueshanfeihu/%E6%B2%B3%E5%8C%97%E6%B2%A7%E5%B7%9E-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //湖北
@@ -783,7 +783,7 @@ export default () => [
         top: '817.50px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/12xueshanfeihu/%E6%B9%96%E5%8C%97-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/12xueshanfeihu/%E6%B9%96%E5%8C%97-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //吉林长白山
@@ -791,7 +791,7 @@ export default () => [
         top: '493.50px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/12xueshanfeihu/%E5%90%89%E6%9E%97%E9%95%BF%E7%99%BD%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/12xueshanfeihu/%E5%90%89%E6%9E%97%E9%95%BF%E7%99%BD%E5%B1%B1-%E4%BA%8B%E4%BB%B6.png'
       }
     ]
   },
@@ -799,7 +799,7 @@ export default () => [
     //连城诀
     id: 13,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page3/%E8%BF%9E%E5%9F%8E%E8%AF%80.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page3/%E8%BF%9E%E5%9F%8E%E8%AF%80.png',
     point: [
       {
         //西藏
@@ -807,7 +807,7 @@ export default () => [
         top: '711px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/13lianchengjue/%E8%A5%BF%E8%97%8F-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/13lianchengjue/%E8%A5%BF%E8%97%8F-%E9%97%A8%E6%B4%BE.png'
       },
       {
         //藏边雪谷
@@ -823,7 +823,7 @@ export default () => [
     //白马啸西风
     id: 14,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page3/%E7%99%BD%E9%A9%AC.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page3/%E7%99%BD%E9%A9%AC.png',
     point: [
       {
         //新疆高昌古城
@@ -831,7 +831,7 @@ export default () => [
         top: '471px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/14baimaxiaoxifeng/%E6%96%B0%E7%96%86%E9%AB%98%E6%98%8C%E5%8F%A4%E5%9F%8E-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/14baimaxiaoxifeng/%E6%96%B0%E7%96%86%E9%AB%98%E6%98%8C%E5%8F%A4%E5%9F%8E-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //山西
@@ -839,7 +839,7 @@ export default () => [
         top: '633px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/14baimaxiaoxifeng/%E5%B1%B1%E8%A5%BF-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/14baimaxiaoxifeng/%E5%B1%B1%E8%A5%BF-%E9%97%A8%E6%B4%BE.png'
       }
     ]
   },
@@ -847,7 +847,7 @@ export default () => [
     //鸳鸯刀
     id: 15,
     book_url:
-      'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page3/%E9%B8%B3%E9%B8%AF%E5%88%80.png',
+      'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap/page3/%E9%B8%B3%E9%B8%AF%E5%88%80.png',
     point: [
       {
         //北京
@@ -855,7 +855,7 @@ export default () => [
         top: '562px',
         x: true,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/15yuanyangdao/%E5%8C%97%E4%BA%AC-%E4%BA%8B%E4%BB%B6.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/15yuanyangdao/%E5%8C%97%E4%BA%AC-%E4%BA%8B%E4%BB%B6.png'
       },
       {
         //陕西西安
@@ -863,7 +863,7 @@ export default () => [
         top: '731px',
         x: false,
         desc:
-          'http://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/15yuanyangdao/%E9%99%95%E8%A5%BF%E8%A5%BF%E5%AE%89-%E9%97%A8%E6%B4%BE.png'
+          'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagemap1/15yuanyangdao/%E9%99%95%E8%A5%BF%E8%A5%BF%E5%AE%89-%E9%97%A8%E6%B4%BE.png'
       }
     ]
   }
