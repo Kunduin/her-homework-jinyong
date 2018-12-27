@@ -16,7 +16,30 @@
         </p>
       </div>
       <div class="extra">
-        {{ extra }}
+        <div
+          v-if="extra&&extra!==''"
+          class="extra-item"
+        >{{ extra }}</div>
+        <div
+          v-if="bubble&&bubble!==0"
+          class="extra-item"
+        >
+          <img
+            src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/bubble.png"
+            alt=""
+            class="smail-image"
+          >{{ bubble }}
+        </div>
+        <div
+          v-if="heart&&heart!==0"
+          class="extra-item"
+        >
+          <img
+            src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/heart.png"
+            alt=""
+            class="smail-image"
+          >{{ heart }}
+        </div>
       </div>
     </div>
   </div>
@@ -40,6 +63,14 @@ export default {
     extra: {
       type: String,
       default: ''
+    },
+    bubble: {
+      type: Number,
+      default: 0
+    },
+    heart: {
+      type: Number,
+      default: 0
     },
     img: {
       type: String,
@@ -81,6 +112,17 @@ export default {
     .extra {
       font-size: 12px;
       color: #b9b9b9;
+      display: flex;
+
+      .smail-image {
+        display: inline-block;
+        height: 10px;
+        margin: 0 3px;
+      }
+
+      .extra-item {
+        padding-right: 14px;
+      }
     }
   }
 }

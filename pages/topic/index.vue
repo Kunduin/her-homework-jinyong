@@ -45,7 +45,7 @@ export default {
         },
         {
           img:
-            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/topics/%E8%AF%9D%E9%A2%984.jpg',
+            'https://jinyong-memory.oss-cn-shanghai.     aliyuncs.com/subpagetopic/topics/%E8%AF%9D%E9%A2%984.jpg',
           title: '你觉得金书中最动听的一句情话是？',
           desc: [
             '阿朱就是阿朱，四海列国，千秋万载，就只一个阿朱',

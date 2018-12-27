@@ -10,6 +10,8 @@
         :desc="item.desc"
         :extra="item.extra"
         :img="item.img"
+        :heart="item.heart"
+        :bubble="item.bubble"
       />
     </div>
 
