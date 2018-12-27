@@ -6,13 +6,11 @@
 
 <script>
 import TopicContent from '~/components/TopicContent/index.vue'
-export default {
-  components: {
-    TopicContent
-  },
-  data() {
-    return {
-      list: [
+
+const getPage = id => {
+  switch (id) {
+    case 1:
+      return [
         {
           img:
             'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/topics/%E8%AF%9D%E9%A2%981.jpg',
@@ -64,6 +62,72 @@ export default {
           extra: '参与：8453'
         }
       ]
+    case 2:
+      return [
+        {
+          img:
+            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/topics/%E8%AF%9D%E9%A2%981.jpg',
+          title: '你是怎么发现身边人也是金庸迷的？',
+          desc: [
+            '“心大，还没发现身边有金庸迷。”',
+            '“我刚认识女朋友时，验证码是田伯光，结果她同意了，然后给我备注淫贼。”'
+          ],
+          extra: '参与：1090'
+        },
+        {
+          img:
+            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/topics/%E8%AF%9D%E9%A2%982.jpg',
+          title: '你最想拜谁为师？',
+          desc: ['“段正淳”', '“黄药师，学学五行术数四门八卦琴棋书画啥的”'],
+          extra: ' 参与：5221'
+        },
+        {
+          img:
+            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/topics/%E8%AF%9D%E9%A2%983.jpg',
+          title: '你喜欢的人物四岁时在做什么？',
+          desc: ['郭靖四岁那年在内蒙古', '黄蓉四岁那年在桃花岛想妈妈'],
+          extra: '参与：9921'
+        },
+        {
+          img:
+            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/topics/%E8%AF%9D%E9%A2%984.jpg',
+          title: '谁的登场最能惊艳到你？',
+          desc: [
+            '乔峰登场时无论是和段誉斗酒、还是在杏子林折服风波恶、擒拿全冠清、平定叛乱都充分显示了他的英雄气概，可谓是惊艳亮相。'
+          ],
+          extra: ' 参与：7346'
+        },
+        {
+          img:
+            'https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpagetopic/topics/%E8%AF%9D%E9%A2%985.jpg',
+          title: '金庸原著中的哪个片段戳中过你的泪点？',
+          desc: [
+            '欧阳克道：「黄姑娘，多谢你相救。 我是活不成了，见到你出力救我，我是死也欢喜。」'
+          ],
+          extra: '参与：8453'
+        }
+      ]
+  }
+}
+
+export default {
+  components: {
+    TopicContent
+  },
+  props: {
+    page: {
+      type: Number,
+      default: 1
+    }
+  },
+  data() {
+    return {
+      list: getPage(1)
+    }
+  },
+  watch: {
+    page(value) {
+      this.list = getPage(value)
     }
   }
 }
