@@ -2,12 +2,24 @@
   <div style="display: flex">
     <FadeBackground
       :src="button"
-      class="image"/>
-    <img
+      class="image"
+    />
+    <div
       v-show="active"
-      :src="desc"
-      alt=""
-      class="image">
+      class="expand"
+      @click="$emit('select',flowerId)"
+    >
+      <fade-background
+        v-show="selected"
+        class="selected"
+        src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%BA%A2%E5%9C%88.png"
+      />
+      <img
+        :src="desc"
+        alt=""
+        class="image"
+      >
+    </div>
   </div>
 </template>
 
@@ -30,6 +42,14 @@ export default {
     desc: {
       type: String,
       default: ''
+    },
+    selected: {
+      type: Boolean,
+      default: false
+    },
+    flowerId: {
+      type: Number | String,
+      default: ''
     }
   }
 }
@@ -39,5 +59,16 @@ export default {
 .image {
   height: 300px;
   margin: 5px;
+}
+
+.selected {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 60px;
+}
+
+.expand {
+  position: relative;
 }
 </style>

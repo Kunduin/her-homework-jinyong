@@ -27,8 +27,11 @@
       >
         <flower-item
           :active="item.id===rowOneActive"
+          :selected="item.id===selectedIndex"
           :button="item.button"
           :desc="item.desc"
+          :flower-id="item.id"
+          @select="changeSelectedIndex"
         />
       </div>
     </div>
@@ -42,8 +45,11 @@
       >
         <flower-item
           :active="item.id===rowTwoActive"
+          :selected="item.id===selectedIndex"
+          :flower-id="item.id"
           :button="item.button"
           :desc="item.desc"
+          @select="changeSelectedIndex"
         />
       </div>
     </div>
@@ -91,10 +97,14 @@ export default {
       rowOneActive: 1,
       rowTwo: getRowTwo(),
       rowTwoActive: 6,
-      flowerState: 'NORMAL'
+      flowerState: 'NORMAL',
+      selectedIndex: 0
     }
   },
   methods: {
+    changeSelectedIndex(index) {
+      this.selectedIndex = index
+    },
     changeFlowerState(state) {
       this.flowerState = state
     },
