@@ -59,23 +59,26 @@
         @mouseleave="changeFlowerState('NORMAL')"
         @mousedown="changeFlowerState('ACTIVE')"
       >
-        <fade-background
+        <img
           v-show="flowerState==='NORMAL'"
-          style="height: 50px"
+          alt=""
+          style="height: 50px;cursor:pointer"
           src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AE.png"
-        />
+        >
 
-        <fade-background
+        <img
           v-show="flowerState==='HOVER'"
-          style="height: 50px"
+          alt=""
+          style="height: 50px;cursor:pointer"
           src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AEhover.png"
-        />
+        >
 
-        <fade-background
+        <img
           v-show="flowerState==='ACTIVE'"
-          style="height: 50px"
+          alt=""
+          style="height: 50px;cursor:pointer"
           src="https://jinyong-memory.oss-cn-shanghai.aliyuncs.com/subpageflower/%E7%8C%AE%E5%AE%9D%E6%8C%89%E9%92%AEactive.png"
-        />
+        >
       </div>
     </div>
   </div>
@@ -103,15 +106,25 @@ export default {
   },
   methods: {
     changeSelectedIndex(index) {
-      this.selectedIndex = index
+      if (this.selectedIndex === index) {
+        this.selectedIndex = -1
+      } else {
+        this.selectedIndex = index
+      }
     },
     changeFlowerState(state) {
       this.flowerState = state
     },
     onRowOneClicked(id) {
+      if (this.rowOneActive !== id) {
+        this.selectedIndex = -1
+      }
       this.rowOneActive = id
     },
     onRowTwoClicked(id) {
+      if (this.rowTwoActive !== id) {
+        this.selectedIndex = -1
+      }
       this.rowTwoActive = id
     }
   }
