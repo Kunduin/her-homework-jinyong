@@ -1,5 +1,7 @@
 # her-homework
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kunduin/her-homework-jinyong.svg)](https://greenkeeper.io/)
+
 > My best Nuxt.js project
 
 ## Build Setup
